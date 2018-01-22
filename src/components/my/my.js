@@ -17,13 +17,13 @@ class My extends Component {
   }
 
   componentDidMount() {
-    let { setPageTitle, setInfoList } = this.props
-
-    // 触发setPageTitle action
-    setPageTitle('新的标题')
-
     // 触发setInfoList action
-    setInfoList()
+    this.props.setInfoList();
+  }
+
+  changeTitle() {
+    // 触发setPageTitle action
+    this.props.setPageTitle('新的标题');
   }
 
   render() {
@@ -36,6 +36,7 @@ class My extends Component {
     return (
       <div className="app-my">
         <h1>{pageTitle}</h1>
+        <div onClick={() => this.changeTitle()}>换个标题</div>
         {
           infoList ?
           <div>
