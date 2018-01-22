@@ -29,6 +29,7 @@ class My extends Component {
   render() {
     // 从props中解构store
     let { pageTitle, infoList } = this.props;
+    console.log(this.props);
     console.log(infoList);
 
     // 使用store

@@ -6,10 +6,23 @@ import {
   Link
 } from "react-router-dom";
 
+import utils from '../../utils/utils';
+
 import './home.styl';
 
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
+  componentDidMount() {
+    console.log(utils.getURLParameters('http://url.com/page?name=Adam&surname=Smith'));
+    console.log(utils.detectDeviceType());
+    console.log(utils.bottomVisible());
+  }
+
   render() {
     return (
       <div className="App-Home">
