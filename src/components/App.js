@@ -38,8 +38,8 @@ class App extends Component {
 
           <div className="app-view">
             {/*
-              Switch组件用来选择最近的一个路由，否则最后一个没有指定path的路由也会显示
-              Redirect重定向到首页
+              * Switch用来选择匹配的第一个路由，否则显示最后一个没有指定path的路由
+              * Redirect重定向，exact严格匹配 from 的路径，to 跳转到首页
             */}
             <Switch>
               <Route path="/home" component={Home} />
