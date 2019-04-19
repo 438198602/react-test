@@ -1,0 +1,655 @@
+{
+  "data": [
+    {
+      "node": {
+        "id": "5cb8208e51882532bb2d2314",
+        "commentsCount": 7,
+        "hot": false,
+        "hotIndex": 1396.9272,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5ca20e426fb9a05e42555d1d",
+        "rankIndex": 96.423802960026,
+        "screenshot": "",
+        "content": "上面这种类型的浮层提示有一个很大的特点，就是使用频率特别高，几乎每个页面都会用到它，于是乎我们就要在每个页面中去引入该组件，并且在每个页面都得通过一个变量来控制它的显隐，这显然不是我们想要的🙅。。。那我们想要的是什么样呢🤔？用过一些 UI 框架的同学们应该知道有这样一种用法…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "555e9a98e4b00c57d9955f68", "title": "Vue.js" }],
+        "title": "this.$toast() 了解一下？",
+        "type": "post",
+        "user": {
+          "id": "58c11dfa44d904006974e29e",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/2/11/168db4be485a6b30?w=750&h=734&f=png&s=1478775",
+          "username": "尤水就下也"
+        },
+        "lastCommentTime": "2019-04-18T18:30:29.172Z",
+        "likeCount": 31,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T07:40:03.119Z",
+        "updatedAt": "2019-04-18T10:42:53.945Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7da186fb9a068b2297abb",
+        "commentsCount": 25,
+        "hot": false,
+        "hotIndex": 4832.9861,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7d7e4e51d456e51614a8e",
+        "rankIndex": 75.435131107903,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2e2b674d198e4?w=684&h=378&f=png&s=12346",
+        "content": "SVG 是可缩放矢量图形(Scalable Vector Graphics)，基于可扩展标记语言，用于描述二维矢量图形的一种图形格式。它由万维网联盟制定，是一个开放标准。SVG 的优势有很多: 而支持上面这些优秀特性的前提是 - 需要支持 SVG 标签。比如在小程序中直接写： …",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "55964d83e4b08a686cc6b353", "title": "JavaScript" },
+          { "id": "57ea2013a22b9d006164c1f8", "title": "微信小程序" }
+        ],
+        "title": "今天，小程序正式支持 SVG",
+        "type": "post",
+        "user": {
+          "id": "5754d6892077030069d32efd",
+          "role": "editor",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2016/11/29/55f4ddb159e8857ff9e469e6fe6d6658.jpg",
+          "username": "当耐特"
+        },
+        "lastCommentTime": "2019-04-18T18:40:08.211Z",
+        "likeCount": 69,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T01:59:52.271Z",
+        "updatedAt": "2019-04-18T10:42:56.055Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7f4fd51882532a1467dc8",
+        "commentsCount": 3,
+        "hot": false,
+        "hotIndex": 2423.0988,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7d6def265da03576ebd6f",
+        "rankIndex": 56.459726794784,
+        "screenshot": "",
+        "content": "使用微信分享，可以获得更好的传播效果。那如何利用微信公众号向好友进行信息分享呢？ 这里以分享 微信红包 为例，手把手教大家实现微信授权与分享。 步骤一. 用户信息获取 1. 注册测试公众号 这里就要麻烦后端的同学为我们提供URL和Token（URL是开发者用来接收微信消息和事件…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "55b9036700b0cecc83240cb7", "title": "微信" },
+          { "id": "5597a05ae4b08a686ce56f6f", "title": "前端" }
+        ],
+        "title": "手把手教你实现H5微信分享",
+        "type": "post",
+        "user": {
+          "id": "5c90d966f265da61173a2cd8",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/3/20/1699a796a1919f2f?w=121&h=121&f=png&s=5474",
+          "username": "快狗打车前端团队"
+        },
+        "lastCommentTime": "2019-04-18T18:00:24.683Z",
+        "likeCount": 68,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T04:00:01.159Z",
+        "updatedAt": "2019-04-18T10:43:16.145Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb8011b6fb9a068676fdf63",
+        "commentsCount": 7,
+        "hot": false,
+        "hotIndex": 1599.9106,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb800fce51d456e4514f550",
+        "rankIndex": 44.539280621282,
+        "screenshot": "",
+        "content": "和往年一样，本年度调研的目的也很简单。是为了了解整个行业中，常见前端工具现有的知识和使用水平。 我非常感谢你能抽出时间来参与。每一份回答都能为前端社区提供一份更有代表性的样本。 去年，5461 名前端研发花时间回答了 24 个关于不同前端工具的问题。 受访者回答了三个关于 Ja…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "56b5a7f3df0eea00544e1993", "title": "掘金翻译计划" },
+          { "id": "5597a05ae4b08a686ce56f6f", "title": "前端" },
+          { "id": "55978433e4b0c4d3e6fddcb1", "title": "前端框架" },
+          { "id": "555e99ffe4b00c57d99556aa", "title": "React.js" },
+          { "id": "555e9a98e4b00c57d9955f68", "title": "Vue.js" }
+        ],
+        "title": "[译] 2019 前端工具调研",
+        "type": "post",
+        "user": {
+          "id": "5a4b4f915188252bca053c71",
+          "role": "editor",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/4/9/162a78bb26356d08?w=720&h=1008&f=jpeg&s=305747",
+          "username": "Yuqi"
+        },
+        "lastCommentTime": "2019-04-18T17:51:57.250Z",
+        "likeCount": 14,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T04:46:19.586Z",
+        "updatedAt": "2019-04-18T10:42:56.958Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7dc80e51d456e4a411e54",
+        "commentsCount": 1,
+        "hot": false,
+        "hotIndex": 2148.8727,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7db02f265da0359486b50",
+        "rankIndex": 38.850201963178,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2e352c1b89305?w=536&h=174&f=jpeg&s=7948",
+        "content": "实现UI和交互是大前端开发者的必备技能，也是掌握Flutter开发的重点；在下学习Flutter之际，实现了几种客户端上常见的酷炫UI特效，虽说是用Flutter造原生的轮子，但Flutter跨平台的特性是原生不能比拟的，更何况还有不弱的性能表现。本文主要是介绍Flutter特…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "5a96291f6fb9a0535b535438", "title": "Flutter" }],
+        "title": "一波Flutter酷炫特效来袭，持续更新",
+        "type": "post",
+        "user": {
+          "id": "592a670744d90400643046be",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2017/7/13/8fca7ddc978d22e6552936bd739a8d67",
+          "username": "codeGoogle"
+        },
+        "lastCommentTime": "2019-04-18T12:10:15.113Z",
+        "likeCount": 25,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T02:47:23.590Z",
+        "updatedAt": "2019-04-18T10:42:55.890Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb70d04f265da03ba0e2407",
+        "commentsCount": 6,
+        "hot": false,
+        "hotIndex": 1730.7879,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb706efe51d456e6865930a",
+        "rankIndex": 37.895985411924,
+        "screenshot": "",
+        "content": "现在流行的前端框架也就是vue、react、angular了，在投递简历时，我们都可以看到任职要求会有最少熟悉这些框架中的一种，掌握这些框架就好像时多了一个轮子或者说是多了一个车，框架可以然我们快速的使用、复用处理一些问题。当然面试中不仅会问到这些只是的掌握情况，也会问些你的框…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "55964d83e4b08a686cc6b353", "title": "JavaScript" },
+          { "id": "5597a314e4b08a686ce5be90", "title": "MVVM" }
+        ],
+        "title": "前端面试题：这是我理解的MVVM，请注意查收",
+        "type": "post",
+        "user": {
+          "id": "5b068ccef265da0db53bbe61",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/9/26/166168a9e97c8c8e?w=640&h=640&f=jpeg&s=65787",
+          "username": "草履虫的思考"
+        },
+        "lastCommentTime": "2019-04-18T16:19:52.666Z",
+        "likeCount": 33,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T03:43:02.772Z",
+        "updatedAt": "2019-04-18T10:43:16.856Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb8499be51d456e235d9bf8",
+        "commentsCount": 1,
+        "hot": false,
+        "hotIndex": 143.8004,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb8447f5188251af5252452",
+        "rankIndex": 36.204948260727,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2fdecbc5fb5ae?w=912&h=364&f=png&s=31042",
+        "content": "想拆分成对应的组件(全部写在一起是贼恐怖的事情)，又不想用Vuex这类来实现。",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "555e9a98e4b00c57d9955f68", "title": "Vue.js" },
+          { "id": "58c7aa1f570c35006d72ebf9", "title": "Ant Design" }
+        ],
+        "title": "Vue 折腾记 - (18) 用Vue的Inject Provide结合Event Bus来实现局部的状态维护",
+        "type": "post",
+        "user": {
+          "id": "575ebdbd5bbb5000638173fb",
+          "role": "editor",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/1/26/16131f8dea4459b4?w=1016&h=1016&f=jpeg&s=252903",
+          "username": "CRPER"
+        },
+        "lastCommentTime": "2019-04-18T18:00:03.950Z",
+        "likeCount": 6,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T09:55:39.094Z",
+        "updatedAt": "2019-04-18T10:43:15.869Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb82a87e51d456e72077909",
+        "commentsCount": 2,
+        "hot": false,
+        "hotIndex": 501.8977,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb82a42e51d456e62545ac6",
+        "rankIndex": 35.927420248811,
+        "screenshot": "",
+        "content": "本文最初是为部门内部培训而准备的，但经过一番调研发现，同事们用不惯 RxJava，并不是因为网上介绍 “怎么用” 的教程不够多，恰恰是因为，一上来就急着发车的教程无数、却从未有过哪篇教程 舍得用几句话的功夫点破 RxJava 操作符究竟为何方神圣、我们为什么要用、为什么要那样用…",
+        "summaryInfo": null,
+        "category": {
+          "name": "Android",
+          "id": "5562b410e4b00c57d9b94a92"
+        },
+        "tags": [{ "id": "5597838ee4b08a686ce2319d", "title": "Android" }],
+        "title": "你用不惯 RxJava，只因缺了这把钥匙",
+        "type": "post",
+        "user": {
+          "id": "58ab0de9ac502e006975d757",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/3/11/1696d057550efcf3?w=800&h=800&f=jpeg&s=42569",
+          "username": "KunMinX"
+        },
+        "lastCommentTime": "2019-04-18T17:28:28.668Z",
+        "likeCount": 6,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T07:44:54.019Z",
+        "updatedAt": "2019-04-18T10:43:15.917Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7f42be51d456e3e7a3b55",
+        "commentsCount": 2,
+        "hot": false,
+        "hotIndex": 1145.2022,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7ee0e51882532fe3440ea",
+        "rankIndex": 26.681555452579,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2e916674a3517?w=817&h=514&f=png&s=20585",
+        "content": "1. 开启gzip压缩的好处 可以减小文件体积，传输速度更快。gzip是节省带宽和加快站点速度的有效方法。 客户端接受到数据后去检查对应字段的信息，就可以根据相应的格式去解码。 客户端请求时，可以用 Accept-Encoding:gzip，用户说明接受哪些压缩方法。 客户端在…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "55964d83e4b08a686cc6b353", "title": "JavaScript" }],
+        "title": "「简明性能优化」双端开启Gzip指南",
+        "type": "post",
+        "user": {
+          "id": "57bd1bdfd342d3006bf76a52",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/8/8/1651a3326f837aaf?w=687&h=640&f=jpeg&s=249766",
+          "username": "前端劝退师"
+        },
+        "lastCommentTime": "2019-04-18T14:23:32.786Z",
+        "likeCount": 35,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T04:00:07.312Z",
+        "updatedAt": "2019-04-18T10:43:16.250Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb72b5f518825324c44eece",
+        "commentsCount": 44,
+        "hot": false,
+        "hotIndex": 4506.7009,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb6f656f265da036c5780ae",
+        "rankIndex": 24.430928563597,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/17/16a2afdbb2034c0c?w=1920&h=1080&f=jpeg&s=293624",
+        "content": "在掘金潜水的时间长达一年之后，我终于鼓起勇气开始写我的第一篇文章了。前端小菜，只是想记录一下自己的想法，望各位看到这文的大佬轻喷。 在现在前后端分离的开发模式下，存储信息一般都不在使用以往使用的cookie了，就拿笔主我之前做过的项目来说。我们都是登录成功了之后后端会返回给我一…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "55964d83e4b08a686cc6b353", "title": "JavaScript" }],
+        "title": "给localStorage加上过期时间",
+        "type": "post",
+        "user": {
+          "id": "59a526646fb9a0249550f208",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/4/16/16a25402c8c4b9f0?w=611&h=610&f=jpeg&s=21344",
+          "username": "Chechengyi"
+        },
+        "lastCommentTime": "2019-04-18T15:43:45.706Z",
+        "likeCount": 64,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-17T17:55:29.636Z",
+        "updatedAt": "2019-04-18T10:43:16.717Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb6ab01e51d456e336cd493",
+        "commentsCount": 4,
+        "hot": false,
+        "hotIndex": 1073.3577,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb6aae9f265da03a54c142d",
+        "rankIndex": 23.41174850532,
+        "screenshot": "",
+        "content": "什么是最好的编程字体呢？首先，你需要考虑到字体被设计出来的初衷可能并不相同。当选择一款用于休闲阅读的字体时，读者希望该字体的字母能够顺滑地衔接，提供一种轻松愉悦的体验。一款标准字体的每个字符，类似于拼图的一块，它需要被仔细的设计，从而与整个字体的其他部分融合在一起。 然而，在编…",
+        "summaryInfo": null,
+        "category": {
+          "name": "开发工具",
+          "id": "5562b422e4b00c57d9b94b53"
+        },
+        "tags": [
+          { "id": "5597a23fe4b08a686ce5a7c4", "title": "字体" },
+          { "id": "55c1748160b28fd99e49ea68", "title": "程序员" },
+          { "id": "5597a3cae4b08a686ce5d0fb", "title": "开源" }
+        ],
+        "title": "5 款适合程序员的开源字体",
+        "type": "post",
+        "user": {
+          "id": "5cb5cf4de51d456e896349e1",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/4/16/16a2633a355ca944?w=512&h=512&f=jpeg&s=69536",
+          "username": "Linux中国"
+        },
+        "lastCommentTime": "2019-04-18T14:08:44.186Z",
+        "likeCount": 20,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T03:42:01.256Z",
+        "updatedAt": "2019-04-18T10:41:13.425Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7dca0f265da039f0f0a0c",
+        "commentsCount": 6,
+        "hot": false,
+        "hotIndex": 1258.2585,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb1aabdf265da037b6101d3",
+        "rankIndex": 22.760579328664,
+        "screenshot": "",
+        "content": "最近接了一个公司官网的项目，需要 SEO 友好，所以不能使用前端框架，前端框架自带的脚手架工具自然也帮不上啥忙。只好自己使用 webpack4 + ejs + express ，从头搭建一个多页应用的项目架构。搭建过程中，遇到许多坑，然而网上的相关参考也是非常少，所以写个博客记…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "55e325a100b0ded317d2f846", "title": "Webpack" }],
+        "title": "【实战】webpack4 + ejs + express 带你撸一个多页应用项目架构",
+        "type": "post",
+        "user": {
+          "id": "5c09fe905188257d5e39607a",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/2/19/169050f5f2a3748d?w=748&h=728&f=png&s=714718",
+          "username": "不写bug的米公子"
+        },
+        "lastCommentTime": "2019-04-18T18:25:59.380Z",
+        "likeCount": 28,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T02:47:38.544Z",
+        "updatedAt": "2019-04-18T10:41:54.303Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7b70a6fb9a068646c10f6",
+        "commentsCount": 4,
+        "hot": false,
+        "hotIndex": 1211.9027,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7b62b5188253772753c01",
+        "rankIndex": 21.220603931222,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2da49624dc069?w=480&h=260&f=jpeg&s=7584",
+        "content": "1. 基本类型有哪几种？null 是对象吗？基本数据类型和复杂数据类型存储有什么区别？ 基本类型有6种，分别是undefined,null,bool,string,number,symbol(ES6新增)。 虽然 typeof null 返回的值是 object,但是null不…",
+        "summaryInfo": null,
+        "category": { "name": "阅读", "id": "5562b428e4b00c57d9b94b9d" },
+        "tags": [{ "id": "55964d83e4b08a686cc6b353", "title": "JavaScript" }],
+        "title": "原生JS知识点整理",
+        "type": "post",
+        "user": {
+          "id": "5c13283de51d4512410edbfe",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/3/29/169c774af480c3d7?w=1024&h=1024&f=jpeg&s=134025",
+          "username": "Coderfei"
+        },
+        "lastCommentTime": "2019-04-18T15:40:20.163Z",
+        "likeCount": 36,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T02:37:34.336Z",
+        "updatedAt": "2019-04-18T10:42:59.920Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb82797518825324664dd8d",
+        "commentsCount": 0,
+        "hot": false,
+        "hotIndex": 292.2742,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb8271151882532826e7af9",
+        "rankIndex": 19.429930174308,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2f5912140fa84?w=1920&h=1200&f=png&s=26855",
+        "content": "JavaScript 异步方式共有有下面六种。 面试中被问到 回调函数 有什么缺点，相信你一定不假思索地回答 回调地狱。的确如此，当我们需要发送多个异步请求，并且每个请求之间需要相互依赖时，就会产生回调地狱。 前段时间写了一个天气微信小程序 Natsuha，它获取天气的逻辑大致…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "559a4c13e4b08a686d209b5b", "title": "Promise" }],
+        "title": "手撕遵循 Promise/A+ 规范的 Promise",
+        "type": "post",
+        "user": {
+          "id": "5bc82522f265da0af1617021",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/3/10/169669f585c9c84d?w=800&h=800&f=jpeg&s=223314",
+          "username": "YanceyOfficial"
+        },
+        "lastCommentTime": null,
+        "likeCount": 10,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T07:34:15.408Z",
+        "updatedAt": "2019-04-18T10:42:16.318Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb5c5bbf265da03b2042682",
+        "commentsCount": 23,
+        "hot": false,
+        "hotIndex": 15259.2406,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb5c3445188256c83279255",
+        "rankIndex": 16.150475703457,
+        "screenshot": "",
+        "content": "1. 编码规范 相信编码规范对于大家来说不算是陌生，如果在 9102 年再次聊起这个话题，恐怕耳朵会起茧，但编码规范从制定到落地是一个艰难的旅程，特别是对于不同成员的编码习惯，还有棘手的祖传代码。无论你是老司机还是新手不妨了解一下。 如何制定编码规范？这是一个永恒的话题，甚至出…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [
+          { "id": "559c814be4b0d4d1b1e9521e", "title": "代码规范" },
+          { "id": "5597a05ae4b08a686ce56f6f", "title": "前端" }
+        ],
+        "title": "前端代码质量管理（一）",
+        "type": "post",
+        "user": {
+          "id": "58c76a0a8ac247072013ce93",
+          "role": "editor",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/8/11/16527f97b29e5599?w=161&h=161&f=jpeg&s=7139",
+          "username": "腾讯IMWeb团队"
+        },
+        "lastCommentTime": "2019-04-18T18:39:51.034Z",
+        "likeCount": 458,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-16T15:05:37.339Z",
+        "updatedAt": "2019-04-18T10:43:01.287Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb81559f265da0382611188",
+        "commentsCount": 3,
+        "hot": false,
+        "hotIndex": 316.9748,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb80ed5f265da03873399bb",
+        "rankIndex": 16.148671127504,
+        "screenshot": "https://user-gold-cdn.xitu.io/2019/4/18/16a2fa987edb43ff?w=3882&h=2584&f=jpeg&s=1233242",
+        "content": "平台能力不受限：通过条件编译+平台特有的API调用，可以优雅地在为某平台写个性化代码,调用专有能力而不影响其他平台。 优先使用基础组件，不满足的地方，用扩展组件补充，不要把整个项目全部都构建在某个ui框架下。 推荐的开发流程是在PC的Chrome下开发测试，基本完成后运行到微信…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "5597a05ae4b08a686ce56f6f", "title": "前端" }],
+        "title": "uni-app跨端开发框架介绍",
+        "type": "post",
+        "user": {
+          "id": "5a994c5151882555666f1d09",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/12/26/167eb14fdcaf975a?w=1122&h=981&f=png&s=1081900",
+          "username": "tenyiyi"
+        },
+        "lastCommentTime": "2019-04-18T18:38:14.849Z",
+        "likeCount": 5,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T06:51:50.916Z",
+        "updatedAt": "2019-04-18T10:38:55.993Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb80b246fb9a0685727e646",
+        "commentsCount": 0,
+        "hot": false,
+        "hotIndex": 282.3777,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb8025351882532e462f094",
+        "rankIndex": 14.201735737053,
+        "screenshot": "",
+        "content": "它也叫分层架构，通常情况下，N至少是2层。例如，C/S架构、B/S架架构、MVC、MVP、操作系统内核架构 划分的对象是整个系统，划分的维度是用户交互，即将和用户交互的部分独立为一层，支撑用户交互的后台作为另外一层。 企业各部门有独立的IT系统，比如人力资源系统、财务系统、销售…",
+        "summaryInfo": null,
+        "category": { "name": "后端", "id": "5562b419e4b00c57d9b94ae2" },
+        "tags": [{ "id": "55cdb52740ac79db3570607f", "title": "架构" }],
+        "title": "分层架构和SOA",
+        "type": "post",
+        "user": {
+          "id": "5cb5c7e26fb9a068b52fb83e",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2019/4/16/16a2616629d87b5c?w=750&h=750&f=jpeg&s=28678",
+          "username": "_sanjun"
+        },
+        "lastCommentTime": null,
+        "likeCount": 5,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T06:49:43.670Z",
+        "updatedAt": "2019-04-18T10:42:59.423Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb724cdf265da03712995c9",
+        "commentsCount": 0,
+        "hot": false,
+        "hotIndex": 1071.1515,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7247df265da03af27ccf9",
+        "rankIndex": 13.738226808272,
+        "screenshot": "",
+        "content": "MySQL官方对索引的定义为：索引（Index）是帮助MySQL高效获取数据的数据结构。 我们知道，数据库查询是数据库的最主要功能之一。我们都希望查询数据的速度能尽可能的快，因此数据库系统的设计者会从查询算法的角度进行优化。最基本的查询算法当然是顺序查找（linear sear…",
+        "summaryInfo": null,
+        "category": { "name": "后端", "id": "5562b419e4b00c57d9b94ae2" },
+        "tags": [{ "id": "555e9a8de4b00c57d9955eb9", "title": "MySQL" }],
+        "title": "干货：mysql索引的数据结构",
+        "type": "post",
+        "user": {
+          "id": "5cb12b6c6fb9a068b748a9ac",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://mirror-gold-cdn.xitu.io/16a1411aad4a52fae4b",
+          "username": "EasonTyler"
+        },
+        "lastCommentTime": null,
+        "likeCount": 18,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T00:49:29.926Z",
+        "updatedAt": "2019-04-18T10:43:00.218Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb7521a6fb9a068616b3829",
+        "commentsCount": 21,
+        "hot": false,
+        "hotIndex": 2474.9762,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb751f7e51d456e6a1d023b",
+        "rankIndex": 13.590321498255,
+        "screenshot": "",
+        "content": "后端操作见文档。 banner、排行榜左边的三个按钮点击没有效果( ´▽｀) ，没时间写那些啦... 登录后展示头像和昵称，且可进入个人中心即“我的”页面，可查看收藏的音乐和最近播放过的音乐。 打勾的为已完成的内容，现在本项目除个人信息修改以外，其他功能都已完成。 字体加粗的部…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "555e9a98e4b00c57d9955f68", "title": "Vue.js" }],
+        "title": "高仿网易云音乐 Vue前端项目",
+        "type": "post",
+        "user": {
+          "id": "5b6926ec51882561ef445de5",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/12/5/1677ad221e2b83dc?w=879&h=923&f=jpeg&s=140483",
+          "username": "CatWalk"
+        },
+        "lastCommentTime": "2019-04-18T17:09:42.644Z",
+        "likeCount": 48,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-17T18:03:16.748Z",
+        "updatedAt": "2019-04-18T10:41:12.993Z"
+      }
+    },
+    {
+      "node": {
+        "id": "5cb8125451882532bd4b63b7",
+        "commentsCount": 2,
+        "hot": false,
+        "hotIndex": 255.7482,
+        "original": true,
+        "originalUrl": "https://juejin.im/post/5cb7ddc5f265da03452bd3cc",
+        "rankIndex": 13.393208593944,
+        "screenshot": "",
+        "content": "由于自己目前在学习typescript;想着边学习变做笔记，往后也可以翻出来看看，也分享出来给像我一样的初学者一起学习。望各位大佬指教。 以上命令会在全局环境下安装 tsc 命令，安装以后我们就可以在任何终端执行tsc命令了。我们可以简单的创建一个文件 hello.tsc 我们…",
+        "summaryInfo": null,
+        "category": { "name": "前端", "id": "5562b415e4b00c57d9b94ac8" },
+        "tags": [{ "id": "55e7d5a360b2d687f60ae13a", "title": "TypeScript" }],
+        "title": "初探TypeScript 基础篇",
+        "type": "post",
+        "user": {
+          "id": "58a711ea570c3500699bd465",
+          "role": "guest",
+          "avatarHd": null,
+          "avatarLarge": "https://user-gold-cdn.xitu.io/2018/12/5/1677de106d242d7e?w=748&h=750&f=png&s=663591",
+          "username": "一线搬砖工"
+        },
+        "lastCommentTime": "2019-04-18T16:44:46.806Z",
+        "likeCount": 1,
+        "eventInfo": null,
+        "viewerHasLiked": false,
+        "createdAt": "2019-04-18T06:56:47.705Z",
+        "updatedAt": "2019-04-18T10:42:59.848Z"
+      }
+    }
+  ]
+}
