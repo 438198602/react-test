@@ -29,6 +29,7 @@ const routes = [
   {
     path: "/detail",
     exact: false,
+    isTabBar: false,
     component: Detail
   }
 ];
@@ -45,7 +46,7 @@ export default class Routers extends Component {
                 path={route.path}
                 exact={route.exact}
                 render={props => (
-                  <React.Fragment key={i}>
+                  <React.Fragment>
                     <React.Suspense fallback={<div>Loading...</div>}>
                       <route.component {...props} />
                     </React.Suspense>
