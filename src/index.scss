@@ -14,6 +14,7 @@ body {
   tap-highlight-color: rgba(0, 0, 0, 0);
   /*禁止微信内置浏览器调整字体大小*/
   -webkit-text-size-adjust: 100% !important;
+  -webkit-overflow-scrolling: touch; /*这句是为了滑动更顺畅*/
 }
 
 code {
@@ -25,6 +26,10 @@ code {
   margin: 0;
   padding: 0;
 }
+a {
+  color: #333;
+  text-decoration: none;
+}
 html,
 body,
 #root {
@@ -32,67 +37,30 @@ body,
   height: 100%;
 }
 
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-.app {
+.root_tab_bar {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  background-color: #fff;
+  height: 49px;
+  border-top: 1px solid #ccc;
+  background-color: #f5f5f5;
 
-  .tab_bar {
-    position: fixed;
-    bottom: 0;
+  .link {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 49px;
-    border-top: 1px solid #ccc;
-    background-color: #f5f5f5;
+    height: 100%;
 
-    .item {
-      flex: 1;
-      height: 100%;
-
-      .link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-
-        &.active {
-          color: #77a9fd;
-        }
-      }
+    &.active {
+      color: #77a9fd;
     }
   }
+}
 
-  .container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 50px;
-    left: 0;
-    z-index: 999;
-    overflow-x: hidden;
-    overflow-y: scroll;
-
-    .page0 {
-      width: 100%;
-      height: 100%;
-    }
-    .pages {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 1000;
-      background-color: #fff;
-    }
-  }
+.root_page {
+  margin-bottom: 50px;
 }

@@ -17,6 +17,10 @@ class App extends Component {
   componentDidMount() {
     console.log(this.props.lists);
     this.props.actions.getDataLists(data);
+    setTimeout(() => {
+      window.scrollTo(0, 100);
+      console.log("top");
+    }, 100);
   }
 
   componentWillUnmount() {
@@ -28,27 +32,29 @@ class App extends Component {
     console.log(this.props);
 
     return (
-      <div className="page0 user">
-        {lists.map((item, index) => {
-          return (
-            <div key={index} className="item">
-              {/* <Link to="detail">
+      <div className="root_page user">
+        <div>
+          {lists.map((item, index) => {
+            return (
+              <div key={index} className="item">
+                {/* <Link to="detail">
                 <p>
                   {index + 1}: {item.node.content}
                 </p>
               </Link> */}
-              <div
-                onClick={() => {
-                  this.props.history.push("/detail");
-                }}
-              >
-                <p>
-                  {index + 1}: {item.node.content}
-                </p>
+                <div
+                  onClick={() => {
+                    this.props.history.push("/detail");
+                  }}
+                >
+                  <p>
+                    {index + 1}: {item.node.content}
+                  </p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     );
   }

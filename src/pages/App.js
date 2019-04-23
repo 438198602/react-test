@@ -9,38 +9,63 @@ import {
 import { Provider } from "react-redux";
 import store from "../store/index";
 
-import Home from "./Home";
-import User from "./User";
-import Detail from "./Detail";
+const Home = React.lazy(() => import("./Home"));
+const User = React.lazy(() => import("./User"));
+const Detail = React.lazy(() => import("./Detail"));
+
+const routes = [
+  {
+    path: "/",
+    exact: true,
+    isTabBar: true,
+    component: Home
+  },
+  {
+    path: "/user",
+    exact: false,
+    isTabBar: true,
+    component: User
+  },
+  {
+    path: "/detail",
+    exact: false,
+    component: Detail
+  }
+];
 
 export default class Routers extends Component {
   render() {
     return (
       <Provider store={store}>
         <Router>
-          <div className="app">
-            <div className="tab_bar">
-              <div className="item">
-                <NavLink exact to="/" className="link">
-                  <span>首页</span>
-                </NavLink>
-              </div>
-              <div className="item">
-                <NavLink exact to="/user" className="link">
-                  <span>我的</span>
-                </NavLink>
-              </div>
-            </div>
+          <Switch>
+            {routes.map((route, i) => (
+              <Route
+                key={i}
+                path={route.path}
+                exact={route.exact}
+                render={props => (
+                  <React.Fragment key={i}>
+                    <React.Suspense fallback={<div>Loading...</div>}>
+                      <route.component {...props} />
+                    </React.Suspense>
 
-            <div className="container">
-              <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/user" component={User} />
-                <Route path="/detail" component={Detail} />
-                <Redirect to="/" />
-              </Switch>
-            </div>
-          </div>
+                    {route.isTabBar && (
+                      <div className="root_tab_bar">
+                        <NavLink exact to="/" className="link">
+                          首页
+                        </NavLink>
+                        <NavLink exact to="/user" className="link">
+                          我的
+                        </NavLink>
+                      </div>
+                    )}
+                  </React.Fragment>
+                )}
+              />
+            ))}
+            <Redirect to="/" />
+          </Switch>
         </Router>
       </Provider>
     );

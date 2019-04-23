@@ -19,13 +19,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="pages App">
+      <div className="App">
         <h3>detail</h3>
         <div>
           <Link to="/">Back to Home</Link>
         </div>
         <div>
           <Link to="/User">Back to User</Link>
+        </div>
+        <div
+          onClick={() => {
+            this.props.history.goBack();
+          }}
+        >
+          Back to User
         </div>
       </div>
     );
